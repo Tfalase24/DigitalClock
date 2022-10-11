@@ -52,7 +52,7 @@ public class MyFrame extends JFrame {
             dayLabel.setText(day);
 
             date = dateFormat.format(Calendar.getInstance().getTime());
-            timeLabel.setText(date);
+            dateLabel.setText(date);
 
             try {
                 Thread.sleep(1000);
